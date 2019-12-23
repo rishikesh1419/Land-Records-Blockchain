@@ -1,0 +1,29 @@
+{
+  "name": "land-records",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dns": "^0.2.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^7.0.1",
+    "module": "^1.2.5",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.18",
+    "net": "^1.0.2",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "semantic-ui-react": "^0.85.0",
+    "solc": "^0.4.24",
+    "tls": "0.0.1",
+    "web3": "^1.0.0-beta.37"
+  }
+}

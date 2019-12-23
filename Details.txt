@@ -1,0 +1,44 @@
+User 1:
+Public: 0xc3a259a254a42404aca20b1de465851ffb652f91
+Contract: 0x21d76e2edbe900f0274423281f2f4e364c41ce31
+
+User 2:
+Public: 0xc49ead6a5a78f86ba51d0adb38ec457b6f7b75f6
+Contract: 0x6b1302d5341daaf86b2d3effc1c5b3de0b09515a
+
+User 3:
+Public: 0x16eafe33a028b59510bf62a23ba2f73fc8675482
+Contract: 0x0762d4d5fa7053107de56c5993dbae07ed4b5e54
+
+User 4:
+Public: 0xf0b141a7c58e6e1da9e7d2b4222b6a0fc1122af9
+Contract: 0xa963b2070b5ed8e19c5b6853ebfd83089da5bfb2
+
+
+Government Node: 0xbfd4edfe86aa3787b7bb054c10d0362254ad50f4
+
+
+Land 1: 0xf25ff2c6c3326d7d205883bd6b46f672f12b1e06
+Land 2: 0xdb8c73930fa7ca2e070bcf2a91f9da00bbc2110a
+Land 3: 0xb66eba442662663c5fdd10d2e34bb52c3355cbe2
+Land 4: 0x11fa581dfe4c43f815ccdd701c135ec6c8b0bd2d
+
+
+LandData: 0x3431afdd36e8566deb2013c9f102f943e36f3c1c
+
+
+To setup the network:
+geth --datadir ./node1 --networkid 2018 --port 30306 --nodiscover --rpc --rpcapi "db,personal,eth,net,web3,debug" --rpccorsdomain="*" --rpcaddr="localhost" --rpcport 8545 --ws --wsapi "db,personal,eth,net,web3,debug" --wsorigins="*"  --wsaddr="localhost" --wsport 8546 console
+
+
+
+
+
+
+personal.unlockAccount(eth.accounts[0],"real")
+
+
+
+
+
+eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[8], value: web3.toWei(1500, "ether")})
