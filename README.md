@@ -1,8 +1,8 @@
-# Land-Records-Records
+# Land-Records-Blockchain
 
 An ethereum based private network and web app for buying and selling of lands.
 
-# Installation steps
+## Installation steps
 
 1. Open terminal and set the path to land-records folder
 ```
