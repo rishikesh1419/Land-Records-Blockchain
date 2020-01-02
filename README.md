@@ -20,3 +20,37 @@ npm run dev
 ```
 localhost:3000/login
 ```
+
+
+## Screenshots
+1. Soldity remix- Set environment to the web3 provider
+
+![sol1](images/sol1.png)
+
+2. Solidity remix - Contract and its transactions
+
+![sol2](images/sol2.png)
+
+3. Land contract and its functions
+
+![land](images/land.png)
+
+4. Terminal - mining a transaction
+
+![mine](images/mining.png)
+
+5. Home page
+
+![home](images/home.png)
+
+6. Put land for sale
+
+![home](images/putforsale.png)
+
+7. Buy land
+
+![buy](images/buy.png)
+
+8. Get buyers
+
+![approve](images/approve.png)
